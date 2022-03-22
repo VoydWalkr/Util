@@ -13,7 +13,7 @@ pub struct SerRate {
   denom: i64,
 }
 impl SerRate {
-  fn new(numer: i64, denom: i64) -> SerRate {
+  pub fn new(numer: i64, denom: i64) -> SerRate {
     SerRate { numer: numer, denom: denom }
   }
 }
